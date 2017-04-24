@@ -1,5 +1,5 @@
 # Idades
-Projeto usado para a palestra no CocoaHeads-Rj de 12/04/2017 e para este [artigo]() do blog [doidiOS](www.doidios.com).
+Projeto usado para a palestra no CocoaHeads-Rj de 12/04/2017 e para este [artigo](http://www.doidios.com/arquitetura-mvvm/) do blog [doidiOS](www.doidios.com).
  
 Crédito das imagens:
 - [criança](https://br.pinterest.com/pin/530298924852275523/)
