@@ -445,6 +445,7 @@
 				A0D769C11E9C62C8004DA0D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0D769C21E9C62C8004DA0D7 /* Build configuration list for PBXNativeTarget "CocoaHeads-MVVMTests" */ = {
 			isa = XCConfigurationList;
@@ -453,6 +454,7 @@
 				A0D769C41E9C62C8004DA0D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

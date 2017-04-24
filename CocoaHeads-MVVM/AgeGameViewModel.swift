@@ -1,5 +1,5 @@
 //
-//  ViewModel.swift
+//  AgeGameViewModel.swift
 //  CocoaHeads-MVVM
 //
 //  Created by Eduardo Tolmasquim on 10/04/17.
@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import UIKit
 
 class AgeGameViewModel {
     
@@ -27,15 +26,15 @@ class AgeGameViewModel {
         return String(Int(age)) + " anos"
     }
     
-    func getImageAndDescription(for age:Float)->(UIImage?,String) {
+    func getImageAndDescription(for age:Float)->(imageName:String,description:String) {
         let ageInt = Int(age)
         for lifetime in lifetimes {
             if lifetime.ageRange.covers(age: ageInt) {
-                let image = UIImage(named:lifetime.imageName)
+                let imageName = lifetime.imageName
                 let description = lifetime.name + "!"
-                return (image,description)
+                return (imageName,description)
             }
         }
-        return (nil, "Que idade é essa?")
+        return ("", "Que idade é essa?")
     }
 }

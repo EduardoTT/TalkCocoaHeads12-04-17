@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  AgeGameViewController.swift
 //  CocoaHeads-MVVM
 //
 //  Created by Eduardo Tolmasquim on 10/04/17.
@@ -29,8 +29,8 @@ class AgeGameViewController: UIViewController,AgeGameProtocol {
 
     @IBAction func didEndEditingAge(_ sender: UISlider) {
         let age = sender.value
-        let (image, description) = viewModel.getImageAndDescription(for: age)
-        imageView.image = image
+        let (imageName, description) = viewModel.getImageAndDescription(for: age)
+        imageView.image = UIImage(named: imageName)
         lifetimeLabel.text = description
     }
     
